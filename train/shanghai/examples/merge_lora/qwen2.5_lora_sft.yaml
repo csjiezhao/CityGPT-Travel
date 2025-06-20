@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /usr/exp/CityGPT-Travel/model_zoo/Qwen2___5-7B-Instruct
+adapter_name_or_path: /usr/exp/CityGPT-Travel/model_zoo/shanghai/qwen2.5-7b/lora/sft
+template: qwen
+finetuning_type: lora
+
+### export
+export_dir: /usr/exp/CityGPT-Travel/model_zoo/shanghai/qwen2.5-7b/lora_merged
+export_size: 2
+export_device: cpu
+export_legacy_format: false
