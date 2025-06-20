@@ -2,7 +2,7 @@
 
 :triangular_flag_on_post: This is the repo of our paper summited to **CIKM  Resource Track 2025**.
 
-<img src="./fig/overview.png" style="zoom:30%;" >
+<img src="./fig/overview.png" style="zoom:20%;" >
 
 ## 🛠️ Requirements
 
